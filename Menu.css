@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 500px;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+.main-menu{
+    display: flex;
+}
+#menu{
+    display: flex;
+    list-style: none;
+    
+}
+#menu li a{
+    display: block;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 20px;
+    line-height: 75px;
+    color: #4a8edb;
+}
+.login{
+    margin-right: 50px;
+}
+
+.login{
+    line-height: 75px;
+}
+#use-login{
+    width: 90px;
+    height: 20px;
+    background-color: #4c22c2;
+    color: white;
+    border: none;
+}
+#use-login:hover{
+    background-color: #d6289c;
+    cursor: pointer;
+}

@@ -1,0 +1,50 @@
+body{
+    font-family:Tahoma, Geneva, sans-serif;
+    font-size:13px;
+    }
+    #menu2{
+    color:rgb(74, 255, 255);
+    width:150px;
+    height:auto;}
+    #inner_menu{
+    padding:5px 10px;
+    color:#400;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    }
+    .submenu{
+    overflow:hidden;
+    }
+    .submenu div{
+    font-weight:bold;
+    cursor:pointer;
+    }
+    .submenu ul{
+    padding:0px 15px;
+    margin:0px;
+    }
+    .submenu li{
+    list-style:none;
+    cursor:pointer;
+    }
+    .submenu a:visited, .submenu a:link{
+    color:#400;
+    }
+    .submenu a:hover{
+    color:red;
+    }
+    #header_menu{
+    font-weight:bold;
+    text-align:center;
+    padding:3px 0px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    background-color:black;
+    color:white;
+    }
+    #bottom_menu{
+    padding:3px 0px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color:black;
+    }

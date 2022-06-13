@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Bán Phụ Kiện Uy Tín Số 1 Việt Nam</title>
+    <link rel="stylesheet" href="Trangchu.css">
+    <link rel="stylesheet" href="dangki.html">
+    <link rel="stylesheet" href="menu1.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <link rel="stylesheet" href="mainmenu.css">
+    <link rel="stylesheet" href="footer.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="mainmenu">
+            <div class="logo">
+                <img src="img/1.png" alt="">
+                <ul style="padding-left: 70px;">
+                    <li id="submenufirst"><a href="Trangchu.html">TRANG CHỦ</a></li>
+                    <li>
+                        <div><a href="CARD.html">CARD ĐỒ HỌA</a></div>
+                        <div class="submenuitem">
+                            <div><a href="CARD.html">GTX</a></div>
+                            <div><a href="CARD.html">GTX3070</a></div>
+                            <div><a href="CARD.html">GTX3080</a></div>
+                            <div><a href="CARD.html">GTX3090</a></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div><a href="Gear.html">GEAR</a></div>
+                        <div class="submenuitem">
+                            <div><a href="Gear.html">GEAR</a></div>
+                            <div><a href="Gear.html">CHUỘT</a></div>
+                            <div><a href="Gear.html">LÓT CHUỘT</a></div>
+                            <div><a href="Gear.html">BÀN PHÍM</a></div>
+                            <div><a href="Gear.html">MÀN HÌNH</a></div>
+                            <div><a href="Gear.html">GHẾ</a></div>
+                        </div>
+                    </li>
+                    <li><a href="LKPC.html">LINH KIỆN PC</a>
+                        <div class="submenuitem">
+                            <div><a href="LKPC.html">CASE</a></div>
+                            <div><a href="LKPC.html">RAM</a></div>
+                            <div><a href="LKPC.html">QUẠT TẢN NHIỆT</a></div>
+                    </li>
+                    <li input type="submit" value="Đăng kí" id="dk"><a href="dangki.html">ĐĂNG KÍ</a></li>
+                    <li>
+                        <div class="cart-item">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span id="countsp">0</span>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="banner">
+        <img src="img/banner1.jpg" onclick="changeImage()" id="img">
+    </div>
+    </div>
+    <div class="content">
+        <div id="content2">
+            <div class="conten">
+                <div id="menu2">
+                    <marquee>
+                        <div id="header_menu">Danh Mục Sản Phẩm</div>
+                    </marquee>
+                    <div id="inner_menu">
+                        <div class="submenu" onclick="toggleMenu(this);">
+                            <div>Card Đồ Họa</div>
+                            <ul>
+                                <li><a href='CARD.html?cag=1'>GTX 3070</a></li>
+                                <li><a href='CARD.html?cag=2'>GTX 3080</a></li>
+                                <li><a href='CARD.html?cag=3'>GTX 3090</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu" onclick="toggleMenu(this);">
+                            <div>Gear</div>
+                            <ul>
+                                <li><a href='Gear.html?cag=4'>Chuột</a></li>
+                                <li><a href='Gear.html?cag=5'>Bàn Phím</a></li>
+                                <li><a href='Gear.html?cag=6'>Ghế</a></li>
+                                <li><a href='Gear.html?cag=7'>Lót chuột</a></li>
+                                <li><a href='Gear.html?cag=8'>Màn Hình</a></li>
+                            </ul>
+                        </div>
+                        <div class="submenu" onclick="toggleMenu(this);">
+                            <div>Linh kiện pc</div>
+                            <ul>
+                                <li><a href='LKPC.html?cag=9'>RAM</a></li>
+                                <li><a href='LKPC.html?cag=10'>Vỏ case</a></li>
+                                <li><a href='LKPC.html?cag=11'>Quạt tản nhiệt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="bottom_menu">&nbsp;</div>
+                </div>
+            </div>
+        </div>
+        <!-- 1 -->
+        <div class="conten-menu1">
+            <div class="Cart">
+                <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                <h2>Giỏ Hàng</h2>
+                <form action="">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Sản Phẩm</th>
+                                <th>Giá</th>
+                                <th>SL</th>
+                                <th>Chọn</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!-- <tr>
+                    <td style="display:flex;align-items: center;" ><img style="width:70px;" src="#" alt="">Iphone6</td>
+                    <td><p><span>320.000</span><sup>đ</sup></p></td>
+                    <td><input style="width: 30px;outline: none;"type="number" min="1" max="10" value="1"></td>
+                    <td style="cursor: pointer;">Xóa</td>
+                </tr> -->
+                        </tbody>
+                    </table>
+                    <div style="text-align: right;" class="price-total">
+                        <p style="font-weight: bold;">Tổng tiền:<span>0</span><sup>đ</sup></p>
+                    </div>
+                    <button>Pay</button>
+                </form>
+            </div>
+<!-- Phần Không Chỉnh Sửa -->
+                <div class="caccard">
+                    <div id="anh">
+                    <p><img src="img/Ram Kingston DDR4 8Gb bus 2666MHz.jpg" alt=""></p>
+                    </div>
+                    <b>Ram Kingston DDR4 8Gb2666</b>
+                    <p><span>950.000</span>đ</p>
+                    <Button>Đặt Hàng</Button>
+                    <!-- 2 -->
+                </div>
+                <div class="caccard">
+                    <div id="anh">
+                        <p><img src="img/Ram Lexar DDR4 8GB Bus 3200.png" alt=""></p>
+                    </div>
+                        <b>Ram Lexar DDR4 8GB Bus 3200</b>
+                        <p><span>900.000</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div>
+                <!-- 3 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Ram Xstar 8gb ddr3 bus 1600.jpg" alt="">
+                    </div>  
+                        <b>Ram Xstar 8gb ddr3 bus 1600</b>
+                        <p><span>1000.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 4 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Case E-ROG ES3 – Black Gaming.jpg" alt="">
+                    </div>  
+                        <b>Case E-ROG ES3 – Black Gaming</b>
+                        <p><span>1800.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 5 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Case E-ROG ES1 – White Gaming.jpg" alt="">
+                    </div>  
+                        <b>Case E-ROG ES1 – White Gaming</b>
+                        <p><span>1700.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 6 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Case E-ROG ES1 – Blue Gaming.jpg" alt="">
+                    </div>  
+                        <b>Case E-ROG ES1 – Blue Gaming</b>
+                        <p><span>1700.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 7 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Fan Cougar Vortex FR120 Led.webp" alt="">
+                    </div>  
+                        <b>Fan Cougar Vortex FR120 Led</b>
+                        <p><span>220.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 8 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Fan DEEPCOOL MF120 GT.webp" alt="">
+                    </div>  
+                        <b>Fan DEEPCOOL MF120 GT</b>
+                        <p><span>1250.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+                <!-- 9 -->
+                <div class="caccard">
+                    <div id="anh">
+                        <img src="img/Tản nhiệt nước Corsair H100 RGB.webp" alt="">
+                    </div>  
+                        <b>Tản nhiệt nước Corsair H100 RGB</b>
+                        <p><span>2390.200</span>đ</p>
+                        <Button>Đặt Hàng</Button>
+                </div> 
+        </div>
+    </div>
+    
+   
+ 
+    
+   
+
+<!-- Phần không chỉnh sửa -->
+<footer>
+    <div class="container">
+        <!--Bắt Đầu Nội Dung Giới Thiệu-->
+        <div class="noi-dung about">
+            <h2>Ad Web</h2>
+            <p>Trần Mẫn</p>
+            <p>Hồ Hoàng Long</p>
+            <p>Trương Vĩnh Huy</p></br>
+            Bản quyền © HML-GROUP.com Bảo lưu mọi quyền
+        </div>
+        <!--Kết Thúc Nội Dung Giới Thiệu-->
+        <!--Bắt Đầu Nội Dung Đường Dẫn-->
+        <div class="noi-dung links">
+            <h2>Đường Dẫn</h2>
+            <ul>
+                <li><a href="#">Trang Chủ</a></li>
+                <li><a href="#">Về Chúng Tôi</a></li>
+                <li><a href="#">Thông Tin Liên Lạc</a></li>
+                <li><a href="#">Dịch Vụ</a></li>
+                <li><a href="#">Điều Kiện Chính Sách</a></li>
+            </ul>
+        </div>
+        <!--Kết Thúc Nội Dung Đường Dẫn-->
+        <!--Bắt Đâu Nội Dung Liên Hệ-->
+        <div class="noi-dung contact">
+            <h2>Thông Tin Liên Hệ</h2>
+            <ul class="info">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>Đường Số 14<br />
+                        45 Nguyễn Huệ , Thành Phố Huế<br />
+                        Việt Nam</span>
+                </li>
+                <li>
+                    <span><i class="fa fa-phone"></i></span>
+                    <p><a href="#">+36 489 0450</a>
+                        <br />
+                        <a href="#">+84 987 654 321</a>
+                    </p>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <p><a href="#">tranman731@gmail.com</a></p>
+                </li>
+                <li>
+                    <form class="form">
+                        <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
+                        <button type="button" class="btn btn--primary  uppercase">Gửi</button>
+                        <marquee>www.thietkeweblinhkienmaytinh.net</marquee>
+                    </form>
+                </li>
+            </ul>
+        </div>
+        <!--Kết Thúc Nội Dung Liên Hệ-->
+    </div>
+</footer>
+<script src="script.js"></script>
+<script src="menu.js"></script>
+<script src="banner.js"></script>
+</body>
+
+</html>
