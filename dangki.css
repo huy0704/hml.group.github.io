@@ -80,11 +80,9 @@ textarea#note{
     float: left;
     margin-right: 30px;
 }
-.anh{
+.anh img{
     float: left;
     margin-left: 60px;
     font-size: 10px;
-}
-.anh h1{
-color: #22cab1;
+    border-radius: 50%;
 }

@@ -8,13 +8,14 @@
     <link rel="stylesheet" href="dangki.css">
     <link rel="stylesheet" href="xuli.html">
     <link rel="stylesheet" href="Trangchu.html">
+    <link rel="stylesheet" href="styledangki.css">
 </head>
 <body>
     <h1>ĐĂNG KÍ THÀNH VIÊN ĐỂ MUA HÀNG</h1>
     <div class="anh">
         <a href="index.html"><img src="img/1.png" alt="" width="150px" height="150px"></a>
         <br>
-        <h1>Đăng ký thành viên</h1>
+       
     </div>
     <form class="form" action="xuli.html">
         <div class="">
@@ -61,8 +62,22 @@
                 <br>
                 <br>
                 <div>
-                    <input id="b" type="reset" value="Đăng kí lại">
-                    <input id="c" type="submit" value="Đăng kí thành viên">
+                    <button class="open-modal-btn">Đăng Kí</button>
+    <div class="modal hide">
+      <div class="modal__inner">
+        <div class="modal__header">
+          <p>Bạn đã đăng kí thành công</p>
+          <i class="fas fa-times"></i>
+        </div>
+        <div class="modal__body">
+          <h2>Đăng Nhập</h2>
+          <p>Mời bạn bấm vào đăng nhập để vào tài khoản</p>
+        </div>
+        <div class="modal__footer">
+          <button>Đóng</button>
+        </div>
+      </div>
+    </div>
                 </div>
                 <div class="login">
                     <Ul>
@@ -76,4 +91,5 @@
     </form>
     
 </body>
+<script src="app.js"></script>
 </html>
