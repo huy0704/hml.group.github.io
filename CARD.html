@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="footer.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="test.css">
+    <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"rel="stylesheet"/>
 </head>
 
 <body>
@@ -63,8 +65,31 @@
 
     </div>
     <div class="banner">
-        <img src="img/banner1.jpg" onclick="changeImage()" id="img">
-    </div>
+        <div class="main">
+            <span class="control prev">
+                <i class="bx bx-chevron-left"></i>
+            </span>
+            <span class="control next">
+                <i class="bx bx-chevron-right"></i>
+            </span>
+            <div class="img-wrap">
+                <img src="img/banner1.jpg" onclick="changeImage()" id="img">
+            </div>
+        </div>
+        <div class="list-img">
+            <div>
+                <img src="img/banner1.jpg" alt="" />
+            </div>
+            <div>
+                <img src="img/banner2.jpg" alt="" />
+            </div>
+            <div>
+                <img src="img/banner3.jpg" alt="" />
+            </div>
+            <div>
+                <img src="img/banner4.jpg" alt="" />
+            </div>
+        </div>
     </div>
     <div class="content">
         <div id="content2">
@@ -170,9 +195,9 @@
         <!--Bắt Đầu Nội Dung Giới Thiệu-->
         <div class="noi-dung about">
             <h2>Ad Web</h2>
-            <p>Trần Mẫn</p>
-            <p>Hồ Hoàng Long</p>
-            <p>Trương Vĩnh Huy</p></br>
+            <strong><a href="profile/profileMan.html"><p>Trần Mẫn</p></a></strong>
+            <strong><a href="profile/profileLong.html"><p>Hồ Hoàng Long</p></a></strong>
+            <strong><a href="profile/profileHuy.html"><p>Trương Vĩnh Huy</p></a></strong>
             Bản quyền © HML-GROUP.com Bảo lưu mọi quyền
         </div>
         <!--Kết Thúc Nội Dung Giới Thiệu-->
@@ -224,6 +249,7 @@
 <script src="script.js"></script>
 <script src="menu.js"></script>
 <script src="banner.js"></script>
+<script src="test.js"></script>
 </body>
 
 </html>

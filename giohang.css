@@ -3,10 +3,11 @@
 table {
     width: 100%;
     border-collapse: collapse;
+    
 }
 
 th {
-    background-color: rgb(176, 219, 239);
+    background-color:rgb(176, 219, 239);
     padding: 10px;
 }
 

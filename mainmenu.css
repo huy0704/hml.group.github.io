@@ -19,7 +19,6 @@ font-weight: 900;
 float:left;
 width:160px;
 list-style:none;
-
 text-align:center;
 cursor:pointer;
 color:rgb(74, 255, 255);
@@ -41,15 +40,20 @@ border-top-right-radius:10px;
 }
 .submenuitem{
 margin-bottom:-7px;
+z-index: 1;
+position: relative;
+
 }
 #mainmenu li div{
 padding:2px 0px;
+
 }
 #mainmenu li div div{
-background-color:rgb(176, 219, 239);
-color:yellow;
-text-align:justify;
-padding-left:5px;
+background-color: #d9eaeb;
+
+color:rgb(235, 235, 153);
+
+
 }
 #mainmenu li div div:hover{
 background-color:#F30;
